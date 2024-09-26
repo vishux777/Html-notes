@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    ,<script>
+        let num1=25;
+        let num2=24
+        let op="+";
+        switch(op){
+            case"+":
+                document.write("The addition is "+ (num1+num2));
+                break;
+            case "-":
+                document.write("The difference is "+ (num1-num2));
+                break;
+            case "/":
+                document.write("The division is "+ (num/num2)); 
+                break;
+            case "*":
+                document.write("The product is "+ (num1*num2))   
+                break;
+        }
+        document.write("<h1>for loop statement</h1>")
+        for(let i=1; i<=10; i++){
+            document.write(i+"<br>");
+        }
+
+        //dropbox alert
+        for (let i=1; i<=10; i++){
+            if (i==5){
+                alert("Break statement executed");
+                break;
+            }
+            document.write(i+"<br>")
+        }
+
+        //pop box box confirm
+        //confirm("click ok to continue")
+        //popup box prompt
+
+        let n1=Number(prompt("Enter the first value:"));
+        let n2=Number(prompt("Enter the second value:"));
+        alert(n1+n2)
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
